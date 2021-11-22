@@ -1,6 +1,6 @@
 import pandas as pd
 import re
-from t2s import Traditional2Simplified
+from .utils.t2s import Traditional2Simplified
 
 
 def rm_exotic(df):
