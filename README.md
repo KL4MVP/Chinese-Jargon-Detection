@@ -31,3 +31,5 @@ pip install -r requirements.txt
 7. Finally, you can obtain real darknet Chinese jargons detected by our framework using `findJargon.py`.
 
 ## Citation
+
+waiting for camera-ready
