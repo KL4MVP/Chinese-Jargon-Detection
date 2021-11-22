@@ -16,14 +16,3 @@ def search(corpus,pattern):
             positions.append(pos)
         col += 1
     return positions
-
-
-
-
-
-# with open("./corpus.pickle","rb") as f:
-#     corpus = pickle.load(f)
-# positions = search(corpus,"草榴")
-# print(positions)
-# for pos in positions:
-#     print(corpus[pos[0]])
