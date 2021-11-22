@@ -1,6 +1,6 @@
 import pandas as pd
 import re
-from t2s import Traditional2Simplified
+from .utils.t2s import Traditional2Simplified
 
 
 def rm_exotic(df):
@@ -61,7 +61,7 @@ def subLong(s):
 if __name__ == '__main__':
     """
     input: Raw data
-    output: CLean data
+    output: Clean data
     """
 
     raw_data = "root/your_datafile_path"  # read from raw data
