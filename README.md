@@ -32,4 +32,10 @@ pip install -r requirements.txt
 
 ## Citation
 
-waiting for camera-ready
+@inproceedings{ke2022unsupervised,
+  title={An Unsupervised Detection Framework for Chinese Jargons in the Darknet},
+  author={Ke, Liang and Chen, Xinyu and Wang, Haizhou},
+  booktitle={Proceedings of the Fifteenth ACM International Conference on Web Search and Data Mining},
+  pages={458--466},
+  year={2022}
+}
